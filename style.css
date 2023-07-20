@@ -38,8 +38,17 @@ body{
     font-family: c;
 }
 .dheading{
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    /* padding-bottom: 2rem; */
     font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.dheading img{
+    width: 2.5rem;
+    margin: 0 0.3rem 0 -0.9rem
 }
 .dhome div{
     border: solid orange;
@@ -58,8 +67,9 @@ body{
     letter-spacing: 0.3rem;
     cursor: pointer;
 }
-/* HEADER TOP BOX*/
+/* HEADER TOP BOX + font family*/
 .header{
+    font-family: c;
     height: 12rem;
     display: flex;
     flex-direction: column;
@@ -79,6 +89,10 @@ body{
     border: solid red;
     width: 38rem;
 }
+.searchbox img{
+    margin-right: 1.3rem;
+    width: 2rem;
+}
 .searchbar{
     border: none;
     border-radius: 25px;
@@ -92,9 +106,63 @@ body{
     align-items: center;
     border: solid yellow;
     width: 30rem;
-    font-family: c;
+}
+.alert img{
+    cursor: pointer;
+    width: 2.8rem;
+    margin:0 1rem;
+}
+.alert .bell{
+    width: 1.6rem;
 }
 /* HEADER BOTTOM BOX */
+.headerbottombox{
+    height:54%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 3rem;
+}
+.greeting img{
+    cursor: pointer;
+    padding:0.3rem;
+    border: solid;
+    height:100%
+}
+.greeting{
+    display: flex;
+    border:solid yellow;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 30rem;
+}
+.greeting p{
+    border: solid;
+    margin:0 1em;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.greeting p span{
+    font-size:15px
+}
+.uploader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+    height:100%;
+    width:30rem;
+}
+.uploader button{
+    width: 7rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 25px;
+    font-family: b;
+}
+
+
 
 
 
