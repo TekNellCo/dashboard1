@@ -15,10 +15,6 @@
     font-family: c;
     src: url(fonts/Overpass-Bold.ttf);
 }
-@font-face {
-    font-family: d;
-    src: url(fonts/Overpass-Bold.ttf);
-}
 
 :root{
 }
@@ -62,7 +58,43 @@ body{
     letter-spacing: 0.3rem;
     cursor: pointer;
 }
+/* HEADER TOP BOX*/
+.header{
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+.headertopbox{
+    display: flex;
+    justify-content: space-between;
+    border:solid red;
+    width: 100%;
+    height:46%;
+    padding: 0 1rem;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red;
+    width: 38rem;
+}
+.searchbar{
+    border: none;
+    border-radius: 25px;
+    width: 32rem;
+    height: 2.2rem;
+}
 
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid yellow;
+    width: 30rem;
+    font-family: c;
+}
+/* HEADER BOTTOM BOX */
 
 
 
