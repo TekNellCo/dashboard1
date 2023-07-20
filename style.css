@@ -2,9 +2,24 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-
-
 }
+@font-face {
+    font-family: a;
+    src: url(fonts/Overpass-Light.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(fonts/Overpass-Medium.ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(fonts/Overpass-Bold.ttf);
+}
+@font-face {
+    font-family: d;
+    src: url(fonts/Overpass-Bold.ttf);
+}
+
 :root{
 }
 body{
@@ -16,11 +31,54 @@ body{
     width: 100vw;
     height: 100vh;
 }
+/* DASHBOARD BAR */
 .one{
     background-color: green;
     height:100%;
     width: 18rem;
+    display: flex;
+    flex-direction: column;
+    padding:2.5rem;
+    font-family: c;
 }
+.dheading{
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.dhome div{
+    border: solid orange;
+    padding:0.6rem;
+    margin: 0.5rem 0;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+.dsettings{
+    margin-top: 3rem;
+}
+.dsettings div{
+    border: solid orange;
+    padding:0.6rem;
+    margin: 0.5rem 0;
+    letter-spacing: 0.3rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .two{
     display: flex;
     flex-direction: column;
