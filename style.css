@@ -1,0 +1,49 @@
+*, *::after, *::after{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+:root{
+}
+body{
+
+}
+.main{
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+}
+.one{
+    background-color: green;
+    height:100%;
+    width: 18rem;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+.search{
+    background-color: yellow;
+    height: 13rem;
+}
+.bodypage{
+    display: flex;
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+}
+.projects{
+    background-color: brown;
+    width: 75%;
+}
+.announcements{
+    background-color: purple;
+    height: 100%;
+    width: 25%;
+}
