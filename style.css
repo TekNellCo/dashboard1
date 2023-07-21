@@ -155,9 +155,10 @@ body{
     width:30rem;
 }
 .uploader button{
+
     cursor: pointer;
     width: 7rem;
-    height: 2.5rem;
+    height: 2.2rem;
     border: none;
     border-radius: 25px;
     font-family: b;
@@ -193,7 +194,7 @@ body{
 }
 .projects{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(3, 1fr);
     background-color: darkred;
     border: solid;
@@ -207,6 +208,45 @@ body{
     border-radius: 15px;
 
 }
+/* ANNOUNCEMENTS BOX */
+.bottomrightbox{
+    border:solid red;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height:100%;
+    position:relative;
+    padding:0 0 3rem 3rem;
+
+    /* padding:3rem 3rem 4rem 0; */
+}
+h3{
+    font-family: c;
+    margin-bottom: 1rem;
+    padding-top:2rem
+}
+.maintbox, .tagbox{
+    width: 90%;
+    border:solid green;
+    height:28rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-family: b;
+}
+.maintbox div{
+    padding:2rem 2rem;
+    display: flex;
+    justify-content: start;
+    border:solid pink;
+}
+.tagbox div{
+    padding:0 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border:solid orchid
+}
+
 
 
 
